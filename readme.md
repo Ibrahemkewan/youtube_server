@@ -13,11 +13,23 @@ This backend server supports a simple YouTube clone application. It is built wit
 
 ## Installation and Setup
 
-1. **Clone the Repository:**
+1. **Clone the Repository :**
 
+- CPP server+ Node Server
    ```bash
    git clone https://github.com/Ibrahemkewan/youtube_server
    ```
+- Android
+
+   ```bash
+   git clone https://github.com/Ibrahemkewan/android_youtube
+   ```
+- React
+
+   ```bash
+   git clone https://github.com/Ibrahemkewan/React
+   ```
+
 
 2. **Navigate to the Project Directory:**
 
