@@ -16,7 +16,7 @@ This backend server supports a simple YouTube clone application. It is built wit
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-repo/youtube-clone-backend.git
+   git clone https://github.com/Ibrahemkewan/youtube_server
    ```
 
 2. **Navigate to the Project Directory:**
@@ -205,9 +205,3 @@ This backend server supports a simple YouTube clone application. It is built wit
 ---
 
 This README provides an overview of the backend server for the YouTube clone application, detailing its features, installation steps, API endpoints, and file structure. Follow the instructions to set up and run the server locally.
-cpp server :
-
- g++ server.cpp -o server.exe -lws2_32
-
- run:
- ./server.exe
