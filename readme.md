@@ -16,7 +16,7 @@ This backend server supports a simple YouTube clone application. It is built wit
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-repo/youtube-clone-backend.git
+   git clone [https://github.com/your-repo/youtube-clone-backend.git](https://github.com/Ibrahemkewan/youtube_server)
    ```
 
 2. **Navigate to the Project Directory:**
