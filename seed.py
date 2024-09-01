@@ -4,32 +4,25 @@ import random
 # Define the API base URL
 base_url = 'http://localhost:5000/api'
 
-# Define the users and videos data
+# Define the users and videos data with unique identifiers
 users = [
-    {"name": "User1", "email": "user1@example.com", "password": "password1"},
-    {"name": "User2", "email": "user2@example.com", "password": "password2"},
-    {"name": "User3", "email": "user3@example.com", "password": "password3"}
+    {"name": "Alice Smith", "email": "alice.smith@example.com", "password": "password1"},
+    {"name": "Bob Johnson", "email": "bob.johnson@example.com", "password": "password2"},
+    {"name": "Charlie Brown", "email": "charlie.brown@example.com", "password": "password3"}
 ]
 
 videos = [
-    {"title": "Sample Video 1", "description": "This is the description for sample video 1.", "url": "https://www.w3schools.com/html/mov_bbb.mp4"},
-    {"title": "Sample Video 2", "description": "This is the description for sample video 2.", "url": "https://www.w3schools.com/html/movie.mp4"},
-    {"title": "Sample Video 3", "description": "This is the description for sample video 3.", "url": "https://www.w3schools.com/html/mov_bbb.mp4"},
-    {"title": "Sample Video 4", "description": "This is the description for sample video 4.", "url": "https://www.w3schools.com/html/movie.mp4"},
-    {"title": "Sample Video 5", "description": "This is the description for sample video 5.", "url": "https://www.w3schools.com/html/mov_bbb.mp4"},
-    {"title": "Sample Video 6", "description": "This is the description for sample video 6.", "url": "https://www.w3schools.com/html/movie.mp4"},
-    {"title": "Sample Video 7", "description": "This is the description for sample video 7.", "url": "https://www.w3schools.com/html/mov_bbb.mp4"},
-    {"title": "Sample Video 8", "description": "This is the description for sample video 8.", "url": "https://www.w3schools.com/html/movie.mp4"},
-    {"title": "Sample Video 9", "description": "This is the description for sample video 9.", "url": "https://www.w3schools.com/html/mov_bbb.mp4"},
-    {"title": "Sample Video 10", "description": "This is the description for sample video 10.", "url": "https://www.w3schools.com/html/movie.mp4"}
+    {"title": "Introduction to Python", "description": "This is the description for the Python intro video.", "url": "https://www.w3schools.com/html/mov_bbb.mp4"},
+    {"title": "Advanced Python Techniques", "description": "This is the description for the advanced Python video.", "url": "https://www.w3schools.com/html/movie.mp4"},
 ]
 
 # List of random image URLs from Lorem Picsum
 image_urls = [
-"https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg",
-"https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg",
-"https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg"
+    "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg",
+    "https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg",
+    "https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg"
 ]
+
 # Function to create users
 def create_users(users):
     user_ids = []
@@ -64,6 +57,7 @@ def add_videos_to_user(user_id, token, videos):
             print(f"Added video: {video['title']} to user: {user_id}")
         else:
             print(f"Failed to add video: {video['title']} to user: {user_id}")
+        break
 
 # Main script
 if __name__ == "__main__":

@@ -36,7 +36,7 @@ This backend server supports a simple YouTube clone application. It is built wit
    Create a `.env` file in the root of the project and add the following environment variables:
 ```
   PORT=5000
-  MONGO_URI=mongodb://localhost:27017
+  MONGO_URI=mongodb://localhost:27017/youtube-demo-app
   JWT_SECRET=your_secret_key
 ```
 
@@ -205,3 +205,9 @@ This backend server supports a simple YouTube clone application. It is built wit
 ---
 
 This README provides an overview of the backend server for the YouTube clone application, detailing its features, installation steps, API endpoints, and file structure. Follow the instructions to set up and run the server locally.
+cpp server :
+
+ g++ server.cpp -o server.exe -lws2_32
+
+ run:
+ ./server.exe
